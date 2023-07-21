@@ -1,6 +1,6 @@
 # Wasserstein accuracy
 
-I implemented the Wasserstein as in [here](https://github.com/mseitzer/pytorch-fid/blob/master/src/pytorch_fid/fid_score.py#L209). My implementation is essentially a copy-paste and can be found under [function.py](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/function.py).
+I implemented the Wasserstein as in [here](https://github.com/mseitzer/pytorch-fid/blob/master/src/pytorch_fid/fid_score.py#L152). My implementation is essentially a copy-paste and can be found under [function.py](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/function.py).
 
 In this experiment I generated $m$ samples from two $n$-dimensional Normal Gaussian distributions $N(0,I_n), N(0,I_n)$.
 
