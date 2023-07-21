@@ -28,10 +28,10 @@ I verified that indeed if I generate 16000 samples from two random Standard Gaus
 
 So the error size of the Wasserstein, in the simplest case possible of two standard random Gaussian distributions, is $\approx 33$ with our example. 
 
-In the case $n = 1024$ we have approximately $f(1,1024) \approx 529039$, conseauently to get an error size $f(m,1024) \leq \epsilon$ we need $m \geq \frac{529039}{epsilon}$, let us pose $m = Nx4x4$ where $N$ is the number of images, then we need $N \geq \frac{33065}{epsilon}$.
+In the case $n = 1024$ we have approximately $f(1,1024) \approx 529039$, consequently to get an error size $f(m,1024) \leq \varepsilon$ we need $m \geq \frac{529039}{\varepsilon}$, let us pose $m = Nx4x4$ where $N$ is the number of images, then we need $N \geq \frac{33065}{epsilon}$.
 
-For $\epsilon = 1$ we get $N \geq 33065$.
-For $\epsilon = 0.1$ we get $N \geq 330650$.
+For $\varepsilon = 1$ we get $N \geq 33065$.
+For $\varepsilon = 0.1$ we get $N \geq 330650$.
 
 These numbers are a little ridicolous to work with, we cannot expect to have more that 10.000 images on our target dataset.
 
