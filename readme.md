@@ -22,7 +22,7 @@ So the polynomial $f$ can be used as a predictor for the Wasserstein error.
 
 In the case of the last latent space of a U-Net, so far I used 1000 images, which totals in 1000x4x4 = 16000 samples in a 1024-dimensional distribution. Setting $m = 16000$ and $n=1024$ in the polynomial gives:
 
-$$ f(16000,1024) = \frac{1}{16000} (0.502 * 1024^2 + 2.596 * 1024 - 4.457) \approx 33 $$
+$$ f(16000,1024) = \frac{1}{16000} (0.502 \times 1024^2 + 2.596 \times 1024 - 4.457) \approx 33 $$
 
 I verified that indeed if I generate 16000 samples from two random Standard Gaussian distributions $N(0,I_n)$ the computed value is 32.9022 .
 
