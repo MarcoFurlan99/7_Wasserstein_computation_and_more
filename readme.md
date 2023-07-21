@@ -2,11 +2,11 @@
 
 In this experiment I generated $m$ samples from two $n$-dimensional Normal Gaussian distributions $N(0,I_n)$.
 
-x-axis is $n \in [1,99]$.
+- x-axis is $n \in [1,99]$.
 
-y-axis is Wasserstein (should be 0).
+- y-axis is Wasserstein (should be 0).
 
-legend is $m \in \lbrace 10^3,10^4,10^5 \rbrace $.
+- legend is $m \in \lbrace 10^3,10^4,10^5 \rbrace $.
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/images/Wasserstein_accuracy.png?raw=true">
 
