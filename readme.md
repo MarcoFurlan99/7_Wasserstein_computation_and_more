@@ -35,5 +35,6 @@ In the case $n = 1024$ we have approximately $f(1,1024) = 529039$, consequently 
 For $\varepsilon = 1$ we get $N \geq 33065$.
 For $\varepsilon = 0.1$ we get $N \geq 330650$.
 
-These numbers are a little ridicolous to work with, we cannot expect to have more that 10.000 images on our target dataset.
+These numbers are a little ridicolous to work with, we cannot expect to have more than 10.000 images on our target dataset.
 
+The issue is sparsity cause by high dimensionality, so reducing the dimensionality would be a fix.
