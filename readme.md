@@ -93,5 +93,23 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 # triangles and circles, source = (60,50,140,50)
 
+Results (identify circles)
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)_toc/three_musketeers.png?raw=true">
+
+
+Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
+
+*lost it rip*
+
 
 # triangles and circles, source = (110,50,150,50)
+
+Results (identify circles)
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/three_musketeers.png?raw=true">
+
+
+Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/training_history.png?raw=true">
