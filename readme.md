@@ -1,3 +1,18 @@
+Table of contents:
+
+- Wasserstein accuracy
+
+- source = (60, 50, 140, 50)
+
+- source = (110, 50, 150, 50)
+
+- source = (110, 10, 150, 10)
+
+- triangles and circles, source = (60,50,140,50)
+
+- triangles and circles, source = (110,50,150,50)
+
+
 # Wasserstein accuracy
 
 Given the FID function from PyTorch described [here](https://pytorch.org/ignite/generated/ignite.metrics.FID.html), I implemented the Wasserstein as in [here](https://github.com/mseitzer/pytorch-fid/blob/master/src/pytorch_fid/fid_score.py#L152). My implementation is essentially a copy-paste and can be found under [functions.py](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/functions.py).
@@ -38,3 +53,45 @@ For $\varepsilon = 0.1$ we get $N \geq 330650$.
 These numbers are a little ridicolous to work with, we cannot expect to have more than 10.000 images on our target dataset.
 
 The issue is sparsity caused by high dimensionality, so reducing the dimensionality would be a fix.
+
+# source = (60, 50, 140, 50)
+
+Results:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/three_musketeers.png?raw=true">
+ 
+Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/training_history.png?raw=true">
+
+Wasserstein:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_0.png?raw=true">
+
+
+# source = (110, 50, 150, 50)
+
+Results:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/three_musketeers.png?raw=true">
+ 
+Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/training_history.png?raw=true">
+
+
+# source = (110, 10, 150, 10)
+
+Results:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,10,150,10)/three_musketeers.png?raw=true">
+ 
+Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,10,150,10)/training_history.png?raw=true">
+
+
+# triangles and circles, source = (60,50,140,50)
+
+
+# triangles and circles, source = (110,50,150,50)
