@@ -60,10 +60,14 @@ Based on these results, we can draw a simple graph which tells us the reliabilit
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/images/UNet_ls.png?raw=true">
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+Given a target dataset with 1000 images, these are the data:
+
+|                  | ls0             | ls1            | ls2            | ls3            | ls4            |
+| ---------------- | --------------- | -------------- | -------------- | -------------- | -------------- |
+| dimensionality   | $64 \times 64$  | $32 \times 32$ | $16 \times 16$ | $8 \times 8$   | $4 \times 4$   |
+| $m$ (n_samples)  | $4096000$       | $1024000$      | $256000$       | $64000$        | $16000$        |
+| $n$ (n_channels) | $64$            | $128$          | $256$          | $512$          | $1024$         |
+| $f(m,n)$         | $<10^{-3}$      | $<10^{-3}$     | $0.13$         | $2.08$         | $33$           |
 
 # Results
 
