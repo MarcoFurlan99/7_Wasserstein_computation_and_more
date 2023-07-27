@@ -69,7 +69,7 @@ Given a target dataset with 1000 images, these are the data:
 | $n$ (n_channels) | $64$            | $128$          | $256$          | $512$          | $1024$         |
 | $f(m,n)$         | $<10^{-3}$      | $<10^{-3}$     | $0.13$         | $2.08$         | $33$           |
 
-Last row is the Wasserstein estimated accuracy. This means that the computation of the Wasserstein is lesser and lesser reliable as we go deeper through the network, because of the higher dimensionality and lower number of samples (increasing sparsity), especially for lower values of the Wasserstein. This may also explain the presence of negative values (ideally $x>0 \implies 1+\log(x)$ )
+Last row is the Wasserstein estimated accuracy. This means that the computation of the Wasserstein is lesser and lesser reliable as we go deeper through the network, because of the higher dimensionality and lower number of samples (increasing sparsity), especially for lower values of the Wasserstein. This may also explain the presence of negative values in the future graphs (ideally $w \geq 0 \implies 1+\log(w) \geq 0$, where w is going to be the Wasserstein distance).
 
 # Results
 
