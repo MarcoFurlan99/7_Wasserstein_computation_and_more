@@ -109,7 +109,11 @@ log Wasserstein vs Adapted IoU:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_4.png?raw=true">
 
-Unfortunately there seems to be no linear relationship! Not much can be concluded in my opinion, other than the fact that if the Wasserstein in the first layers is low ($<3$), then the adapted_IoU is (very likely to be) high ($>0.9$). This may be obvious if the target datasets are very close to the source one (so the IoU is high regardless of BN adaptation), I'll need to check if that's the case.
+Unfortunately there seems to be no linear relationship! One fact that may be relevant is that if the Wasserstein in the first layers is low ($<3$), then the adapted_IoU is (very likely to be) high ($>0.9$). This may be obvious if the target datasets are very close to the source one (so the IoU is high regardless of BN adaptation), I'll need to check if that's the case.
+
+From the deeper layers (ls3, ls4) I wouldn't get any conclusion given the complete absence of pattern, which is likely caused by the instability in the computations of the Wasserstein.
+
+The Target-Normalized Wasserstein distance may be a viable option for the first layers. I'll proceed with some testing and see how stable it is.
 
 ## source = (110, 50, 150, 50)
 
