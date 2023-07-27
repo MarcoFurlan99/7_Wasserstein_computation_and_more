@@ -56,6 +56,15 @@ These numbers are a little ridicolous to work with, we cannot expect to have mor
 
 The issue is sparsity caused by high dimensionality, so reducing the dimensionality would be a fix.
 
+Based on these results, we can draw a simple graph which tells us the reliability of the Wasserstein calculated on the different latent spaces, as shown below:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/images/UNet_ls.png?raw=true">
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 # Results
 
 ## source = (60, 50, 140, 50)
