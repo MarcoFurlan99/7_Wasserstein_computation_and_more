@@ -69,7 +69,7 @@ Given a target dataset with 1000 images, these are the data:
 | $n$ (n_channels) | $64$            | $128$          | $256$          | $512$          | $1024$         |
 | $f(m,n)$         | $<10^{-3}$      | $<10^{-3}$     | $0.13$         | $2.08$         | $33$           |
 
-Last row is the Wasserstein estimated accuracy. This means that the computation of the Wasserstein is lesser and lesser reliable as we go deeper through the network, because of the higher dimensionality and lower number of samples (increasing sparsity), especially for lower values of the Wasserstein. This may also explain the presence of negative values in the future graphs (ideally $w \geq 0 \implies 1+\log(w) \geq 0$, where w is going to be the Wasserstein distance).
+Last row is the Wasserstein estimated accuracy. This means that the computation of the Wasserstein is less reliable as we go deeper through the network, because of the lower number of samples and higher dimensionality (increasing sparsity), especially for lower values of the Wasserstein. This may also explain the presence of negative values in the future graphs (ideally $w \geq 0 \implies 1+\log(w) \geq 0$, where w is going to be the Wasserstein distance).
 
 # Results
 
@@ -87,9 +87,29 @@ Wasserstein:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_0.png?raw=true">
 
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_1.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_2.png?raw=true">
+
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_3.png?raw=true">
+
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_4.png?raw=true">
+
 log Wasserstein vs Adapted IoU:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_0.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_1.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_2.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_3.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_4.png?raw=true">
+
+Unfortunately there seems to be no linear relationship! Not much can be concluded in my opinion, other than the fact that if the Wasserstein in the first layers is low ($<3$), then the adapted_IoU is (very likely to be) high ($>0.9$). This may be obvious if the target datasets are very close to the source one (so the IoU is high regardless of BN adaptation), I'll need to check if that's the case.
 
 ## source = (110, 50, 150, 50)
 
