@@ -2,15 +2,17 @@ Table of contents:
 
 - Wasserstein accuracy
 
-- source = (60, 50, 140, 50)
+- Results:
 
-- source = (110, 50, 150, 50)
+> source = (60, 50, 140, 50)
 
-- source = (110, 10, 150, 10)
+> source = (110, 50, 150, 50)
 
-- triangles and circles, source = (60,50,140,50)
+> source = (110, 10, 150, 10)
 
-- triangles and circles, source = (110,50,150,50)
+> triangles and circles, source = (60,50,140,50)
+
+> triangles and circles, source = (110,50,150,50)
 
 
 # Wasserstein accuracy
@@ -54,7 +56,9 @@ These numbers are a little ridicolous to work with, we cannot expect to have mor
 
 The issue is sparsity caused by high dimensionality, so reducing the dimensionality would be a fix.
 
-# source = (60, 50, 140, 50)
+# Results
+
+## source = (60, 50, 140, 50)
 
 Results (before BN adaptation, after BN adaptation, difference):
 
@@ -72,7 +76,7 @@ log Wasserstein vs Adapted IoU:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_0.png?raw=true">
 
-# source = (110, 50, 150, 50)
+## source = (110, 50, 150, 50)
 
 Results (before BN adaptation, after BN adaptation, difference):
 
@@ -83,7 +87,7 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/training_history.png?raw=true">
 
 
-# source = (110, 10, 150, 10)
+## source = (110, 10, 150, 10)
 
 Results (before BN adaptation, after BN adaptation, difference):
 
@@ -94,7 +98,7 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,10,150,10)/training_history.png?raw=true">
 
 
-# triangles and circles, source = (60,50,140,50)
+## triangles and circles, source = (60,50,140,50)
 
 Identify **circles**
 
@@ -110,7 +114,7 @@ Training history (50 epochs --> 250 validation rounds, early stopping patience =
 *lost it rip*
 
 
-# triangles and circles, source = (110,50,150,50)
+## triangles and circles, source = (110,50,150,50)
 
 Identify **circles**
 
