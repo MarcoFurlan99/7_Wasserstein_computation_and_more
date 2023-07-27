@@ -56,7 +56,7 @@ The issue is sparsity caused by high dimensionality, so reducing the dimensional
 
 # source = (60, 50, 140, 50)
 
-Results:
+Results (before BN adaptation, after BN adaptation, difference):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/three_musketeers.png?raw=true">
  
@@ -74,7 +74,7 @@ log Wasserstein vs Adapted IoU:
 
 # source = (110, 50, 150, 50)
 
-Results:
+Results (before BN adaptation, after BN adaptation, difference):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/three_musketeers.png?raw=true">
  
@@ -85,7 +85,7 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 # source = (110, 10, 150, 10)
 
-Results:
+Results (before BN adaptation, after BN adaptation, difference):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,10,150,10)/three_musketeers.png?raw=true">
  
@@ -96,9 +96,11 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 # triangles and circles, source = (60,50,140,50)
 
+Identify **circles**
+
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)_toc/samples.png?raw=true">
 
-Results (identify circles)
+Results (before BN adaptation, after BN adaptation, difference)
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)_toc/three_musketeers.png?raw=true">
 
@@ -110,9 +112,11 @@ Training history (50 epochs --> 250 validation rounds, early stopping patience =
 
 # triangles and circles, source = (110,50,150,50)
 
+Identify **circles**
+
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/samples.png?raw=true">
 
-Results (identify circles)
+Results (before BN adaptation, after BN adaptation, difference)
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/three_musketeers.png?raw=true">
 
