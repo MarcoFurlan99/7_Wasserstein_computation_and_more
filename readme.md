@@ -68,6 +68,9 @@ Wasserstein:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_0.png?raw=true">
 
+log Wasserstein vs Adapted IoU:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_0.png?raw=true">
 
 # source = (110, 50, 150, 50)
 
