@@ -125,6 +125,32 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/training_history.png?raw=true">
 
+Wasserstein:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/wasserstein_0.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/wasserstein_1.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/wasserstein_2.png?raw=true">
+
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/wasserstein_3.png?raw=true">
+
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/wasserstein_4.png?raw=true">
+
+log Wasserstein vs Adapted IoU:
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_0.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_1.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_2.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_3.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_4.png?raw=true">
+
 
 ## source = (110, 10, 150, 10)
 
