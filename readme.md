@@ -83,16 +83,7 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/training_history.png?raw=true">
 
-Wasserstein:
-
-<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_0.png?raw=true">
-
-<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_1.png?raw=true">
-
-<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_2.png?raw=true">
-
-
-<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_3.png?raw=true">
+Wasserstein can be found in the folder [(60,50,140,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(60%2C50%2C140%2C50)).
 
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_4.png?raw=true">
@@ -125,7 +116,7 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/training_history.png?raw=true">
 
-Wasserstein can be found in the folder [(60,50,140,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(60%2C50%2C140%2C50))
+Wasserstein can be found in the folder [(110,50,150,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(110%2C50%2C150%2C50)).
 
 log Wasserstein vs Adapted IoU:
 
