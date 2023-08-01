@@ -226,3 +226,7 @@ Identify **circles**
 - again, upper/lower triangle behaviour.
 
 - somehow, comparing with the previous result, more stable across different $\mu_2 - \mu_1$.
+
+# extra
+
+Why don't we use the running estimations $\mu$ and $\text{Var}$ in the BN layers to compute a distance between the two UNets ?? It makes so much more sense than taking the latent spaces imo!
