@@ -85,9 +85,6 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 Wasserstein can be found in the folder [(60,50,140,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(60%2C50%2C140%2C50)).
 
-
-<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/wasserstein_4.png?raw=true">
-
 log Wasserstein vs Adapted IoU:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_0.png?raw=true">
