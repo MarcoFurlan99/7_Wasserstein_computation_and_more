@@ -75,17 +75,18 @@ Last row is the Wasserstein estimated accuracy. This means that the computation 
 
 ## source = (60, 50, 140, 50)
 
-Results (before BN adaptation, after BN adaptation, difference):
+### Results (before BN adaptation, after BN adaptation, difference):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/three_musketeers.png?raw=true">
  
-Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
+### Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/training_history.png?raw=true">
 
-Wasserstein can be found in the folder [(60,50,140,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(60%2C50%2C140%2C50)).
 
-log Wasserstein vs Adapted IoU:
+### log Wasserstein vs Adapted IoU:
+
+Wasserstein can be found in the folder [(60,50,140,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(60%2C50%2C140%2C50)).
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_0.png?raw=true">
 
@@ -97,7 +98,7 @@ log Wasserstein vs Adapted IoU:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)/Prometheus_4.png?raw=true">
 
-*Observations*
+### *Observations*
 
 **from results**
 
@@ -117,17 +118,18 @@ The Target-Normalized Wasserstein distance may be a viable option for the first 
 
 ## source = (110, 50, 150, 50)
 
-Results (before BN adaptation, after BN adaptation, difference):
+### Results (before BN adaptation, after BN adaptation, difference):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/three_musketeers.png?raw=true">
  
-Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
+### Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/training_history.png?raw=true">
 
-Wasserstein can be found in the folder [(110,50,150,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(110%2C50%2C150%2C50)).
 
-log Wasserstein vs Adapted IoU:
+### log Wasserstein vs Adapted IoU:
+
+Wasserstein can be found in the folder [(110,50,150,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(110%2C50%2C150%2C50)).
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_0.png?raw=true">
 
@@ -138,6 +140,8 @@ log Wasserstein vs Adapted IoU:
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_3.png?raw=true">
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_4.png?raw=true">
+
+### log SA Wasserstein vs Adapted IoU:
 
 Source-adapted Wasserstein can be found in the folder [(110,50,150,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(110%2C50%2C150%2C50)).
 
@@ -152,7 +156,7 @@ Source-adapted Wasserstein can be found in the folder [(110,50,150,50)](https://
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_SA_4.png?raw=true">
 
 
-*Observations*
+### *Observations*
 
 - The same as before
 
@@ -160,15 +164,15 @@ Source-adapted Wasserstein can be found in the folder [(110,50,150,50)](https://
 
 ## source = (110, 10, 150, 10)
 
-Results (before BN adaptation, after BN adaptation, difference):
+### Results (before BN adaptation, after BN adaptation, difference):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,10,150,10)/three_musketeers.png?raw=true">
  
-Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
+### Training history (10 epochs --> 50 validation rounds, early stopping patience = 10):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,10,150,10)/training_history.png?raw=true">
 
-*Obserrvations*:
+### *Observations*:
 
 Let's compare with $(110,50,150,50)$.
 
@@ -182,16 +186,16 @@ Identify **circles**
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)_toc/samples.png?raw=true">
 
-Results (before BN adaptation, after BN adaptation, difference)
+### Results (before BN adaptation, after BN adaptation, difference)
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(60,50,140,50)_toc/three_musketeers.png?raw=true">
 
 
-Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
+### Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
 
 :cry: *lost it rip* :cry:
 
-*Observations*
+### *Observations*
 
 - We can see a hint of the upper/lower triangle behaviour as before
 
@@ -206,16 +210,16 @@ Identify **circles**
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/samples.png?raw=true">
 
-Results (before BN adaptation, after BN adaptation, difference) (*NOTE: the *)
+### Results (before BN adaptation, after BN adaptation, difference) (*NOTE: the values in the titles of these graphs are incorrect*)
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/three_musketeers.png?raw=true">
 
 
-Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
+### Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/training_history.png?raw=true">
 
-*Observations*
+### *Observations*
 
 - astoundingly low performance, both before and after BN adaptation. Impressively hard task.
 
