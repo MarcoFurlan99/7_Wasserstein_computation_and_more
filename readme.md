@@ -201,7 +201,7 @@ Identify **circles**
 
 - generally much harder task than $(60,50,140,50)$ without circles and triangles.
 
-- if $\mu_1 = 60$ BN adaptation does not help much generally. It does help in all other cases.
+- if $\mu_1 = 60$, BN adaptation does not help much generally. It does help in all other cases.
 
 
 ## triangles and circles, source = (110,50,150,50)
@@ -225,4 +225,4 @@ Identify **circles**
 
 - again, upper/lower triangle behaviour.
 
-- somehow, comparing with previous results, more stable across different $\mu_2 - \mu_1$.
+- somehow, comparing with the previous result, more stable across different $\mu_2 - \mu_1$.
