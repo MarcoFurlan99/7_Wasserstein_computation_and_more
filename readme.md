@@ -155,7 +155,9 @@ Training history (10 epochs --> 50 validation rounds, early stopping patience = 
 
 *Obserrvations*:
 
-- Let's compare with (110,50,150,50). When $(\sigma_1, \sigma_2) = (10,10)$ and $\mu_2 - \mu_1 \geq 40$ results are perfect. For $\mu_2 - \mu_1 < 40$ results are generally worse.
+Let's compare with $(110,50,150,50)$.
+
+- When $(\sigma_1, \sigma_2) = (10,10)$ and $\mu_2 - \mu_1 \geq 40$ results are perfect. For $\mu_2 - \mu_1 < 40$ results are generally worse.
 
 - For greater values of $(\sigma_1, \sigma_2)$ the net struggles a lot more, even with BN adaptation. This is intuitive since it was trained on an easier dataset, so all the target datasets are comparatively harder.
 
@@ -172,8 +174,9 @@ Results (before BN adaptation, after BN adaptation, difference)
 
 Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
 
-*lost it rip*
+*lost it rip :cry:*
 
+*Observations*
 
 ## triangles and circles, source = (110,50,150,50)
 
