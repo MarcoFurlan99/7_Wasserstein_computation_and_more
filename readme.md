@@ -139,9 +139,24 @@ log Wasserstein vs Adapted IoU:
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_4.png?raw=true">
 
+Source-adapted Wasserstein can be found in the folder [(110,50,150,50)](https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/tree/master/(110%2C50%2C150%2C50)).
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_SA_0.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_SA_1.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_SA_2.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_SA_3.png?raw=true">
+
+<img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)/Prometheus_SA_4.png?raw=true">
+
+
 *Observations*
 
-- Essentially the same as before
+- The same as before
+
+- Source-normalized Wasserstein does not help. Note that it is also much more unstable computationally than the raw Wasserstein.
 
 ## source = (110, 10, 150, 10)
 
@@ -174,9 +189,16 @@ Results (before BN adaptation, after BN adaptation, difference)
 
 Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
 
-*lost it rip :cry:*
+:cry: *lost it rip* :cry:
 
 *Observations*
+
+- We can see a hint of the upper/lower triangle behaviour as before
+
+- generally much harder task than $(60,50,140,50)$ without circles and triangles.
+
+- if $\mu_1 = 60$ BN adaptation does not help much generally. It does help in all other cases.
+
 
 ## triangles and circles, source = (110,50,150,50)
 
@@ -184,7 +206,7 @@ Identify **circles**
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/samples.png?raw=true">
 
-Results (before BN adaptation, after BN adaptation, difference)
+Results (before BN adaptation, after BN adaptation, difference) (*NOTE: the *)
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/three_musketeers.png?raw=true">
 
@@ -192,3 +214,11 @@ Results (before BN adaptation, after BN adaptation, difference)
 Training history (50 epochs --> 250 validation rounds, early stopping patience = 20):
 
 <img src="https://github.com/MarcoFurlan99/7_Wasserstein_computation_and_more/blob/master/(110,50,150,50)_toc/training_history.png?raw=true">
+
+*Observations*
+
+- astoundingly low performance, both before and after BN adaptation. Impressively hard task.
+
+- again, upper/lower triangle behaviour.
+
+- somehow, comparing with previous results, more stable across different $\mu_2 - \mu_1$.
